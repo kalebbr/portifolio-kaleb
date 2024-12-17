@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    flex-direction: row;
+    box-shadow: 23px;
+}
+
+  .logo{
+    height: 70px;
+    width: 70px;
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 90px;
+    margin-left: 130px;
+    
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-link{
+    color: rgb(204, 59, 214) ;
+}
+
+.divnome{
+   display: flex;
+   justify-content:center;
+   margin-right: 150px;
+  
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 330px;
+    margin: 40px;
+    padding: 150px;
+    
+}
+
+.sobre{
+    background-color: rgb(0, 0, 0);
+    height: 270px;
+    width: 120%;
+   
+}
+.text{
+    align-items: center;    
+    height: 270px;
+    width: 470px;
+    padding: 40px;
+    
+}
+.dim{
+     
+    background-color: rgb(0, 0, 0);
+    height: 270px;
+    width: 270px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+   
+}   
+
+.dim img{
+    display: flex;
+    height: 270PX;
+    width: 270PX;
+    border-radius: 40px;
+}
+
+.separar{
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 20px;
+    width: 80%;
+    margin: 110px;
+    
+}
+
+.containersk{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+
+.skls{
+    /* background-color: black; */
+    height: 270px;
+    width: 60%;
+    margin: 30px;
+}
+
+.icon{
+    background-color:aqua;
+    height: 65px;
+    width: 80%;
+}
+
+.containerpg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pgts{
+    background-color: black;
+    height: 260px;
+    width: 60%;
+    margin: 30px;
+}
+.fala{
+    background-color: black;
+    height: 205px;
+    width: 45%;
+}
+
+.containerform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 45px;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+    width: 35%;
+    margin: 30px;
+
+}
+
+
+.contato{
+    background-color: black;
+    height: 200px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+   height: 55px;
+   width: 100%;
+   box-shadow: 23px;
+
+}
+
+
+#div_fixa {
+
+    position:fixed; 
+    margin:15px;
+    margin-top: 300px;
+    z-index:5000;
+    bottom: 0px;
+    }
+    
+
+
+
+    
+   
+    
