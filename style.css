@@ -49,10 +49,19 @@
     
 }
 
+.containersb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .sobre{
+    display: flex;
+    justify-content: center;
     background-color: rgb(0, 0, 0);
     height: 270px;
-    width: 120%;
+    width: 65%;
    
 }
 .text{
@@ -96,21 +105,34 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #ececec;
   
 
 }
 
 .skls{
-    /* background-color: black; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
     height: 270px;
     width: 60%;
     margin: 30px;
 }
 
 .icon{
-    background-color:aqua;
-    height: 65px;
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ececec;
+    height: 55px;
+    width: 75px;
+    border-radius: 8px;
+}
+
+.icon img{
+  
+    height: 45px;
+    width: 25px;
 }
 
 .containerpg{
@@ -145,22 +167,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color:#ececec;
     height: 500px;
     width: 35%;
     margin: 30px;
+    border-radius: 6px;
+    box-shadow: 90px;
 
 }
 
 
 .contato{
-    background-color: black;
+    background-color: #ececec;
     height: 200px;
     width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 90px;
 
 }
 
@@ -187,8 +213,11 @@
     }
     
 
-
+.mt-0{
+padding: 30px;
+margin: 35px;
+color: rgb(204, 59, 214);
+}
 
     
-   
-    
+
