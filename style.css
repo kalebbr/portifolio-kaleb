@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    
 }
 
 .header{
@@ -13,10 +14,7 @@
     background-color: black;
     flex-direction: row;
     box-shadow: 23px;
-   
-
     
-   
 }
 
   .logo{
@@ -243,7 +241,7 @@ h2{
 }
 
 .destq{
-    color: red;
+    color: rgb(204, 59, 214);
     font-size: 60px;
 }
 
